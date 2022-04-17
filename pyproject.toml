@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bing-wallpaper"
+version = "0.1.0"
+description = "Um script para atualizar dinâmicamente o wallpaper"
+authors = ["Wesley Ribeiro"]
+license = "GNU"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+requests = "^2.27.1"
+beautifulsoup4 = "^4.11.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pyinstaller = "^4.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
